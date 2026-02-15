@@ -71,7 +71,7 @@ export const drinks: Product[] = [
         name: "Teh Hangat",
         price: 3000,
         category: "minuman",
-        image: "/images/teh-hangat.jpg"
+        image: "/drink/tehanget.webp"
     },
     {
         id: 10,
@@ -99,7 +99,7 @@ export const drinks: Product[] = [
         name: "Es Teh",
         price: 3000,
         category: "minuman",
-        image: "/images/es-teh.jpg"
+        image: "/drink/esteh.webp"
     },
     {
         id: 14,

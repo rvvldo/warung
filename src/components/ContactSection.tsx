@@ -42,7 +42,7 @@ export default function ContactSection() {
                                 </div>
                                 <div className="group">
                                     <h3 className="text-lg font-light text-gray-400 mb-2 group-hover:text-white transition-colors">Kontak</h3>
-                                    <p className="font-medium text-lg">muhammadyusuf@gmail.com</p>
+                                    <p className="font-medium text-lg">muhmmdyusuf0203@gmail.com</p>
                                     <p className="text-gray-400">Pak Yusuf</p>
                                 </div>
                             </div>
