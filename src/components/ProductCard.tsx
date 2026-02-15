@@ -1,6 +1,5 @@
 
 import type { Product } from "../data/products"
-import { Plus } from "lucide-react"
 
 interface ProductCardProps {
     product: Product
