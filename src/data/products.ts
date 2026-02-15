@@ -76,21 +76,21 @@ export const drinks: Product[] = [
     {
         id: 10,
         name: "Jeruk Hangat",
-        price: 5000,
+        price: 4000,
         category: "minuman",
         image: "/drink/jerukanget.webp"
     },
     {
         id: 11,
         name: "Kopi Hitam",
-        price: 5000,
+        price: 3000,
         category: "minuman",
         image: "/drink/kopihitam.webp"
     },
     {
         id: 12,
         name: "Kopi Susu",
-        price: 7000,
+        price: 4000,
         category: "minuman",
         image: "/drink/kopisusu.webp"
     },
@@ -104,23 +104,16 @@ export const drinks: Product[] = [
     {
         id: 14,
         name: "Es Jeruk",
-        price: 5000,
+        price: 4000,
         category: "minuman",
         image: "/drink/esjeruk.webp"
     },
     {
         id: 15,
         name: "Es Nutrisari",
-        price: 5000,
+        price: 4000,
         category: "minuman",
         image: "/drink/esnutri.webp"
-    },
-    {
-        id: 16,
-        name: "Es Jangelan Cincau",
-        price: 7000,
-        category: "minuman",
-        image: "/drink/escincau.webp"
     }
 ]
 
