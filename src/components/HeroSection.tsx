@@ -52,7 +52,7 @@ export default function HeroSection() {
                 {/* Stats / Features (Minimalist) */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 border-t border-gray-100 pt-12 mb-5 max-w-4xl mx-auto">
                     {[
-                        { label: "Menu Pilihan", value: "16" },
+                        { label: "Menu Pilihan", value: "15" },
                         { label: "Rating", value: "4.9/5" },
                         { label: "Pelanggan", value: "500+" },
                         { label: "Harga Mulai", value: "7rb" },
