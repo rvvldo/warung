@@ -35,7 +35,7 @@ export default function AboutSection() {
 
                         <div className="space-y-6 text-gray-600 font-light leading-relaxed text-lg">
                             <p>
-                                <strong className="text-gray-900 font-medium">Berdiri sejak 2026</strong>, Warung Barokah Rasa dimulai dari mimpi sederhana: menyajikan masakan rumahan yang jujur dan menenangkan hati.
+                                <strong className="text-gray-900 font-medium">Berdiri sejak 2025</strong>, Warung Barokah Rasa dimulai dari mimpi sederhana: menyajikan masakan rumahan yang jujur dan menenangkan hati.
                             </p>
                             <p>
                                 Terletak di sudut tenang <span className="text-orange-600 font-medium">Jalan Roman</span>, kami percaya bahwa makanan enak tidak harus mahal. Setiap piring yang kami sajikan dibuat dengan bahan segar pilihan hari ini, diolah dengan resep warisan yang kami jaga keasliannya.
