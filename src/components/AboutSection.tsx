@@ -1,4 +1,5 @@
 import { MapPin } from "lucide-react"
+import bgWeb from "../assets/bg.webp"
 
 export default function AboutSection() {
     return (
@@ -11,7 +12,7 @@ export default function AboutSection() {
 
                         <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center bg-[url('https://images.unsplash.com/photo-1541544744-5e3fa876f647?q=80&w=1000')] bg-cover bg-center grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 hover:scale-105">
                             {/* Overlay */}
-                            <img src="bg.webp" alt="" className="w-full h-full object-cover rounded-3xl" />
+                            <img src={bgWeb} alt="" className="w-full h-full object-cover rounded-3xl" />
                         </div>
 
                         <div className="absolute bottom-8 left-8 right-8 bg-white/90 backdrop-blur-md p-6 rounded-3xl shadow-xl transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-100">

@@ -43,8 +43,8 @@ export default function ProductSection() {
 
                 {/* Aesthetic Grid */}
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 md:gap-x-8 md:gap-y-12">
-                    {products.map((product) => (
-                        <ProductCard key={product.id} product={product} />
+                    {products.map((produk) => (
+                        <ProductCard key={produk.id} product={produk} />
                     ))}
                 </div>
             </div>
