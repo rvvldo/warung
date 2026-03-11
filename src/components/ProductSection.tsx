@@ -1,12 +1,21 @@
 
-import { useState } from "react"
-import { foods, drinks } from "../data/products"
+import { useState, useEffect } from "react"
 import ProductCard from "./ProductCard"
 
 export default function ProductSection() {
     const [activeTab, setActiveTab] = useState<'makanan' | 'minuman'>('makanan')
+    const [foods, setFoods] = useState([])
+    const [drinks, setDrinks] = useState([])
     const products = activeTab === 'makanan' ? foods : drinks
 
+    useEffect(() => {
+        fetch("http://localhost:5000/produk")
+            .then((res => res.json()))
+            .then((data => {
+                setFoods(data.filter((item: any) => item.category === "makanan"))
+                setDrinks(data.filter((item: any) => item.category === "minuman"))
+            }))
+    }, [])
     return (
         <section id="Produk" className="bg-[#fcfaf7] py-24 md:py-32">
             <div className="container mx-auto px-6 max-w-7xl">
@@ -43,7 +52,7 @@ export default function ProductSection() {
 
                 {/* Aesthetic Grid */}
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 md:gap-x-8 md:gap-y-12">
-                    {products.map((produk) => (
+                    {products.map((produk: any) => (
                         <ProductCard key={produk.id} product={produk} />
                     ))}
                 </div>

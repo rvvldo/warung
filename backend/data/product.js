@@ -1,12 +1,4 @@
-export interface Product {
-    id: number
-    name: string
-    price: number
-    category: 'makanan' | 'minuman'
-    image: string
-}
-
-export const foods: Product[] = [
+const product = [
     {
         id: 1,
         name: "Tahu Campur",
@@ -65,7 +57,7 @@ export const foods: Product[] = [
     }
 ]
 
-export const drinks: Product[] = [
+const drinks = [
     {
         id: 9,
         name: "Teh Hangat",
@@ -117,4 +109,6 @@ export const drinks: Product[] = [
     }
 ]
 
-export const allProducts = [...foods, ...drinks]
+const allProduct = [...product, ...drinks];
+
+export default allProduct;
